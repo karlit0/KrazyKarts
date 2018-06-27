@@ -1,0 +1,15 @@
+KrazyKarts/Binaries
+KrazyKarts/DerivedDataCache
+KrazyKarts/Intermediate
+KrazyKarts/Saved
+KrazyKarts/enc_temp_folder
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
