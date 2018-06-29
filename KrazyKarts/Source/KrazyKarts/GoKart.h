@@ -63,7 +63,12 @@ private:
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_MoveRight(float Value);
 
-	FVector Velocity;		
+	FVector Velocity;
+
+	UPROPERTY(Replicated)
+	FVector ReplicatedLocation;
+	UPROPERTY(Replicated)
+	FRotator ReplicatedRotation;
 
 	float Throttle;
 	float SteeringThrow;
